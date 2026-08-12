@@ -9,9 +9,9 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "true"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch
-      == "base-hvoqyu"
+      == "base-tckpdz"
   labels:
-    appstudio.openshift.io/application: application-zsre
+    appstudio.openshift.io/application: application-xkva
     appstudio.openshift.io/component: component-prefetch-yarn-modern
     pipelines.appstudio.openshift.io/type: build
   name: component-prefetch-yarn-modern-on-pull-request
